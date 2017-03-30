@@ -30,6 +30,12 @@ a {
 a:visited {
     color: hsl(0,10%,60%);
     }
+a:hover, a:visited:hover, a:focus {
+    color: white;
+    }
+a:focus {
+    outline: 1px dotted white;
+    }
 a[target="_blank"] {
     background-image: url('../images/export.svg');
     background-size: 10px 10px;
