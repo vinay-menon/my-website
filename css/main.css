@@ -51,6 +51,11 @@ p, ul {
     margin-bottom: 10px;
     }
 
+ul {
+    padding-left: 20px;
+    list-style: square;
+    }
+
 h1, h2 {
     margin-bottom: 20px;
     }
