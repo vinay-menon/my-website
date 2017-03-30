@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    position: relative;
     }
 
 body {
@@ -70,16 +71,21 @@ h1, h2 {
     color: hsl(0,100%,60%);
     }
 
-.post {
-    padding-left: 20px;
+@media (min-width: 500px) {
+    .post {
+        padding-left: 20px;
+        } 
+    .post > header h2 {
+        margin-left: -20px;
+        }   
     }
-.post > header h2 {
-    margin-left: -20px;
-    }
+
 .project-date {
     margin-bottom: 10px;
-    display: block;
+    display: inline-block;
     font-family: "segoe ui", sans-serif;
     font-weight: bold;
     font-size: 1.2rem;
+    background-color: hsl(0,0%,40%);
+    padding: 3px;
     }
