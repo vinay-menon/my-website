@@ -76,3 +76,10 @@ h1, h2 {
 .post > header h2 {
     margin-left: -20px;
     }
+.project-date {
+    margin-bottom: 10px;
+    display: block;
+    font-family: "segoe ui", sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    }
