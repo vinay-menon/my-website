@@ -30,13 +30,14 @@ a:visited {
 a[target="_blank"]:after {
     content: "";
     background-image: url('../images/export.svg');
-    background-size: 15px 15px;
+    background-size: 10px 10px;
     background-repeat: no-repeat;
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
     display: inline-block;
     vertical-align: middle;
-    margin-left: 10px;
+    margin-left: 5px;
+    transform-origin: bottom right;
     transform: rotate(45deg);
     }
 
@@ -46,11 +47,11 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: Capitalize;
     }
 
-p + p {
-    margin-top: 10px;
+p, ul {
+    margin-bottom: 10px;
     }
 
-h1, h2, .post > header {
+h1, h2 {
     margin-bottom: 20px;
     }
 
