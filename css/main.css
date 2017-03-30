@@ -30,7 +30,7 @@ a {
 a:visited {
     color: hsl(0,10%,60%);
     }
-a:hover, a:visited:hover, a:focus {
+a:hover {
     color: white;
     }
 a:focus {
