@@ -28,15 +28,16 @@ a:visited {
     color: hsl(0,10%,60%);
     }
 a[target="_blank"]:after {
-    content: "ä";
-    font-family: "wingdings";
-    text-decoration: none;
-    text-transform: none;
-    font-size: 1rem;
-    color: white;
+    content: "";
+    background-image: url('../images/export.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
     display: inline-block;
-    margin-left: 10px;
     vertical-align: middle;
+    margin-left: 10px;
+    transform: rotate(45deg);
     }
 
 h1, h2, h3, h4, h5, h6 {
