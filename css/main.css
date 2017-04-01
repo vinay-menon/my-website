@@ -64,6 +64,10 @@ h1, h2 {
     margin-bottom: 20px;
     }
 
+.emoji {
+    font-size: 1.4rem;
+    }
+
 .main-header, .post {
     margin-bottom: 100px;
     }
