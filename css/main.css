@@ -10,16 +10,9 @@ body {
     font-family: georgia, serif;
     background-color: #222;
     color: white;
-    max-width: 500px;
+    max-width: 450px;
     margin: auto;
     line-height: 1.4;
-    }
-
-@media (min-width: 600px) {
-    body {
-        padding-left: 50px;
-/*        margin: 0 0 0 0;*/
-        }
     }
 
 a {
