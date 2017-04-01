@@ -1,3 +1,5 @@
+ @import url('https://fonts.googleapis.com/css?family=Playfair+Display:700');
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +15,7 @@ body {
     margin: auto;
     padding: 10px;
     
-    font-family: georgia, serif;
+    font-family: "segoe ui", sans-serif;
     color: white;
     line-height: 1.4;
     }
@@ -43,7 +45,7 @@ a[target="_blank"] {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
-    font-family: "segoe ui", sans-serif;
+    font-family: 'Playfair Display', serif;
     text-transform: Capitalize;
     }
 
@@ -85,6 +87,19 @@ h1, h2 {
     color: white;
     }
 
+
+.project-date {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 1rem;
+    
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px;
+    
+    background-color: hsl(0,100%,60%);
+    }
+
 @media (min-width: 500px) {
     .post {
         display: flex;
@@ -92,13 +107,8 @@ h1, h2 {
         } 
 
     .project-date {
-        font-family: "segoe ui", sans-serif;
-        font-weight: bold;
-        font-size: 1rem;
-        
-        background-color: hsl(0,100%,60%);
-        
+        background-color: hsl(0,100%,60%);        
         margin-right: 10px;
-        padding: 5px;
+        margin-bottom: 0;
         }
     }
