@@ -18,7 +18,7 @@ body {
 @media (min-width: 600px) {
     body {
         padding-left: 50px;
-        margin: 0 0 0 0;
+/*        margin: 0 0 0 0;*/
         }
     }
 
@@ -76,22 +76,32 @@ h1, h2 {
 .main-header a:visited {
     color: hsl(0,100%,60%);
     }
+.title a {
+    color: white;
+    border: 0;
+    }
+.title a:visited {
+    color: white;
+    }
 
 @media (min-width: 500px) {
     .post {
-        padding-left: 20px;
+        display: flex;
+        flex-direction: row;
         } 
-    .post > header h2 {
-        margin-left: -20px;
-        }   
-    }
 
-.project-date {
-    margin-bottom: 10px;
-    display: inline-block;
-    font-family: "segoe ui", sans-serif;
-    font-weight: bold;
-    font-size: 1.2rem;
-    background-color: hsl(0,0%,40%);
-    padding: 3px;
+    .project-date {
+        font-family: "segoe ui", sans-serif;
+        font-weight: bold;
+        font-size: 1rem;
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: baseline;
+        background-color: hsl(0,100%,60%);
+        padding: 5px;
+        }
+    .post_body h2 {
+        display: inline-block;
+        vertical-align: baseline;
+        }
     }
