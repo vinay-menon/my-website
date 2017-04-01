@@ -70,7 +70,8 @@ h1, h2 {
 .main-header a {
     font-weight: bold;
     }
-.main-header a:visited {
+.main-header a:visited,
+.post_body h2 a {
     color: hsl(0,100%,60%);
     }
 .title a {
