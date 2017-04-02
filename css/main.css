@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     position: relative;
+    
+/*    outline: 1px solid red;*/
     }
 
 body {
@@ -84,7 +86,6 @@ h1, h2 {
 .title a:visited {
     color: white;
     }
-
 
 .project-date {
     font-family: "segoe ui", sans-serif;
